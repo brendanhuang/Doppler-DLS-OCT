@@ -1,6 +1,8 @@
 # Doppler-DLS-OCT
 A short Matlab-based tutorial on performing Doppler and Dynamic Light Scattering processing on Optical Coherence Tomography. The tutorial aims to give basic physical intuition to the measurements. Also useful for ultrasound signal processing.
 
+<img src="/images/dls.png" width = "80%" align="middle">
+
 Optical coherence tomography (OCT) is a non-invasive, microscopic medical imaging technique that can give information about microfluidic flow, including blood and mucociliary flow [1]. In particular, OCT can make use of the Doppler effect, a shift in the frequency of returning light, in order to estimate flow along the direction of light propagation. Dynamic light scattering (DLS) is a signal processing technique that has been proposed to be used to recover the dynamics of flow in all three-dimensions [2,3].
 
 This tutorial gives a short overview of basic OCT signal processing. In it, you will learn what type of information we recover in an OCT measurement, and how we can process that measurement over time to get an estimate of fluid flow velocity. Additionally, OCT is often considered the light-analogue of ultrasound.  All of the signal processing machinery presented here can equally be applied towards ultrasound signals as well.
